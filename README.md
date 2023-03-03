@@ -11,14 +11,14 @@ It works the same way as the standard Guzzle Client, but takes care of refreshin
 Use this commmand to install with Composer:
 
 ```shell
-$ composer require lightspeedhq/ls-retail-guzzle-v3
+$ composer require github-bishwajeet/ls-retail-guzzle
 ```
 
 Alternatively, you can add these lines to your `composer.json` file:
 
 ```json
     "require": {
-        "lightspeedhq/ls-retail-guzzle-v3": "2.*"
+        "github-bishwajeet/ls-retail-guzzle": "2.*"
     }
 ```
 
