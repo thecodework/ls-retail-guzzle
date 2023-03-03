@@ -18,7 +18,7 @@ Alternatively, you can add these lines to your `composer.json` file:
 
 ```json
     "require": {
-        "lightspeedhq/ls-retail-guzzle-v3": "~1.0"
+        "lightspeedhq/ls-retail-guzzle-v3": "2.*"
     }
 ```
 
