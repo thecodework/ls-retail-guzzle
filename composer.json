@@ -1,5 +1,5 @@
 {
-    "name": "lightspeedhq/ls-retail-guzzle",
+    "name": "lightspeedhq/ls-retail-guzzle-v3",
     "description": "A Guzzle HTTP Client extension for Lightspeed Retail.",
     "keywords": [
         "lightspeed",
@@ -18,6 +18,10 @@
         {
             "name": "James Ratcliffe",
             "email": "james.ratcliffe@lightspeedhq.com"
+        },
+        {
+            "name": "Bishwajeet Kumar",
+            "email": "bishwajeet@thecodework.com"
         }
     ],
     "license": "MIT",
