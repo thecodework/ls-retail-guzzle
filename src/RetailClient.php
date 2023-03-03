@@ -19,7 +19,7 @@ use GuzzleHttp\Exception\ConnectException;
 */
 class RetailClient extends Client
 {
-    const HOST = "https://api.merchantos.com/";
+    const HOST = "https://api.lightspeedapp.com/";
 
     public $account_id;
     private $refresh_token;
@@ -51,7 +51,7 @@ class RetailClient extends Client
         $this->client_secret = $client_secret;
 
         parent::__construct([
-            'base_uri' => self::HOST . 'API/Account/' . $account_id . "/",
+            'base_uri' => self::HOST . 'API/V3/Account/' . $account_id . "/",
             'headers' => [
                 'Accept' => 'application/json'
             ],
